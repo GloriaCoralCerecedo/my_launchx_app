@@ -7,7 +7,7 @@ describe("Esto es una suite de pruebas", () => {
     });
   })
 
-  describe("Clase mission commander", () => {
+  describe("Clase  Mission Commander", () => {
     test('1) Crear un objeto a mission commander', () => {
         const myMissionCommander = new MissionCommander("Woopa")
         expect(myMissionCommander.name).toBe("Woopa");
